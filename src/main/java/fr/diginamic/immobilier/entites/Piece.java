@@ -41,6 +41,14 @@ public abstract class Piece {
 	 */
 	public abstract String getType();
 
+	@Override
+	public String toString() {
+		return "Piece{" +
+				"superficie=" + superficie +
+				", numEtage=" + numEtage +
+				'}';
+	}
+
 	/** Getter
 	 * @return the superficie
 	 */

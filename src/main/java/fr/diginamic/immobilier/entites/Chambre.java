@@ -9,7 +9,7 @@ public class Chambre extends Piece {
 	 * @param etage étage
 	 * @param superficie superficie
 	 */
-	public Chambre(int etage, double superficie) {
+	public Chambre( int etage, double superficie) {
 		super(etage, superficie);
 	}
 
